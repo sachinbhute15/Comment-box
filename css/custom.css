@@ -1,0 +1,164 @@
+body
+{
+  background-color: #1E1D32;;
+}
+h5
+{
+  font-family: agency FB;font-weight: bold;font-size: 24px;text-transform: uppercase;
+}
+small
+{
+  font-family: Roboto;font-weight: bold;text-transform: uppercase;color: #c2d4f8;
+}
+p
+{
+  font-family: Roboto;font-weight: normal;color: #c2d4f8;text-align: justify;
+}
+.replay
+{
+  color: #3dd0d8;
+}
+.child-replay
+{
+  color: #337C8F;
+
+}
+::placeholder
+{
+   font-family: Roboto; font-style: italic ;color: #c2d4f8;
+}
+.custom-img
+{
+  width:70px;border-radius: 50%;
+}
+.custom-card
+{
+  width: 22rem;border: 0px solid rgba(0,0,0,0);border-radius: 0px;
+}
+.custom-card-body
+{
+  padding: 0.7rem;
+}
+.custom-form-control
+{
+  background-color: #181728;
+  border: 0px solid #181728;
+  border-radius: 0px;
+  height: calc(3em + 1rem + 4px);
+  padding: .375rem 2rem;
+}
+.textarea-custom-form-control
+{
+   background-color: #181728;
+  border: 0px solid #181728;
+  border-radius: 0px;
+  height: 25px;
+  padding: .375rem 2rem;
+}
+.btn-danger
+{
+  border-color: transparent;
+}
+.custom-btn
+{
+  font-family: Roboto;font-weight: bold;
+border-radius: .5rem;
+padding: 1rem 3rem;
+border-color: linear-gradient(to right, #69DDE4, #A17FED);;  
+background: #A17FED;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #69DDE4, #A17FED);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #69DDE4, #A17FED); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*media query*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+      h5
+    {
+      font-family: agency FB;font-weight: bold;font-size: 18px;text-transform: uppercase;
+    }
+    small
+    {
+      font-size: 10px;
+    }
+    p
+    {
+      font-size: 12px;
+    }
+    ::placeholder
+    {
+      font-size: 12px;
+    }
+
+    .custom-btn
+    {
+      font-size: 12px;
+    }
+    .custom-img
+    {
+      width:60px;border-radius: 50%;
+    }
+    .custom-card
+    {
+      width: 8.3rem;border: 0px solid rgba(0,0,0,0);border-radius: 0px;
+    }
+    .custom-card-body
+    {
+      padding: 0.7rem;
+    }
+
+  }
+ @media (min-width: 576px) and (max-width: 767px) 
+  {
+         h5
+    {
+      font-family: agency FB;font-weight: bold;font-size: 17px;text-transform: uppercase;
+    }
+    small
+    {
+      font-size: 12px;
+    }
+    p
+    {
+      font-size: 14px;
+    }
+    ::placeholder
+    {
+      font-size: 14px;
+    }
+
+    .custom-btn
+    {
+      font-size: 14px;
+    }
+    .custom-img
+    {
+      width:60px;border-radius: 50%;
+    }
+    .custom-card
+    {
+      width: 10rem;border: 0px solid rgba(0,0,0,0);border-radius: 0px;
+    }
+    .custom-card-body
+    {
+      padding: 0.7rem;
+    }
+  }
+   @media (min-width: 768px) and (max-width: 991px) {
+    .custom-card
+    {
+      width: 13rem;border: 0px solid rgba(0,0,0,0);border-radius: 0px;
+    }
+    .custom-card-body
+    {
+      padding: 0.7rem;
+    }
+   }
+    @media (min-width: 992px) and (max-width: 1199px) 
+    {
+        .custom-card
+        {
+          width: 18rem;border: 0px solid rgba(0,0,0,0);border-radius: 0px;
+        }
+
+    }
